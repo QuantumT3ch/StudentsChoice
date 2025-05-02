@@ -1,0 +1,5 @@
+﻿  LevelC.cpp
+C:\Users\fresh\source\repos\Final\LevelC.cpp(152,12): warning C4101: 'enemy_texture_id': unreferenced local variable
+C:\Users\fresh\source\repos\Final\LevelC.cpp(320,42): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\fresh\source\repos\Final\LevelC.cpp(340,38): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+  Final.vcxproj -> C:\Users\fresh\source\repos\Final\Debug\Final.exe
