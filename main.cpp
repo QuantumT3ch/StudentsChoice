@@ -288,7 +288,7 @@ void process_input()
             
             case SDLK_RIGHT:
                 if (attack_delay == 0) {
-                    attack_delay = 1000 * FIXED_TIMESTEP;
+                    attack_delay = 1500 * FIXED_TIMESTEP;
                     g_current_scene->get_state().player->attack_right();
                     Mix_PlayChannel(-1, g_current_scene->get_state().attack_sfx, 0);
                 }
@@ -297,7 +297,7 @@ void process_input()
             case SDLK_LEFT:
 
                 if (attack_delay == 0) {
-                    attack_delay = 1000 * FIXED_TIMESTEP;
+                    attack_delay = 1500 * FIXED_TIMESTEP;
                     g_current_scene->get_state().player->attack_left();
                     Mix_PlayChannel(-1, g_current_scene->get_state().attack_sfx, 0);
                 }
@@ -305,7 +305,7 @@ void process_input()
             case SDLK_UP:
 
                 if (attack_delay == 0) {
-                    attack_delay = 1000 * FIXED_TIMESTEP;
+                    attack_delay = 1500 * FIXED_TIMESTEP;
                     g_current_scene->get_state().player->attack_up();
                     Mix_PlayChannel(-1, g_current_scene->get_state().attack_sfx, 0);
                 }
@@ -313,7 +313,7 @@ void process_input()
             case SDLK_DOWN:
 
                 if (attack_delay == 0) {
-                    attack_delay = 1000 * FIXED_TIMESTEP;
+                    attack_delay = 1500 * FIXED_TIMESTEP;
                     g_current_scene->get_state().player->attack_down();
                     Mix_PlayChannel(-1, g_current_scene->get_state().attack_sfx, 0);
                 }
